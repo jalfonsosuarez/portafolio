@@ -28,4 +28,11 @@ export class ProductosService {
 
   }
 
+  public cargarProducto( id:string ){
+
+    let url = `https://x3database-c2ca7.firebaseio.com/productos/${id}.json`;
+
+    return this.http.get( url );
+  }
+
 }

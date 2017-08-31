@@ -29,8 +29,6 @@ export class ProductosService {
     this.prodFiltrado = [];
     termino = termino.toLowerCase();
 
-    console.log(termino);
-
     this.productos.forEach( prod => {
       if( prod.categoria.indexOf( termino ) >= 0  ||
           prod.titulo.toLowerCase().indexOf( termino ) >= 0 ){

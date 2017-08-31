@@ -45,17 +45,16 @@ export class ProductosService {
 
     let promesa = new Promise( (resolve, reject)=>{
 
-      // if( this.productos.length === 0){
+       if( this.productos.length === 0){
         let url = 'https://x3database-c2ca7.firebaseio.com/productos_idx.json';
 
         this.http.get( url )
         .subscribe( res => {
-          // console.log( res.json() );
           this.productos = res.json();
           this.cargando = false;
           resolve();
         });
-      // }
+       }
 
     });
 

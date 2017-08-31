@@ -30,7 +30,6 @@ export class InformacionService {
 
     this.http.get("https://x3database-c2ca7.firebaseio.com/equipo.json")
         .subscribe( data=>{
-          // console.log(data.json());
           this.equipo=data.json();
           this.nosotrosCargada=true;
         })

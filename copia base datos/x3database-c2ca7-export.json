@@ -1,0 +1,21 @@
+{
+  "equipo" : [ {
+    "frase" : "cualquier cosa",
+    "nombre" : "Alfonso Suárez",
+    "subtitulo" : "otra cosa",
+    "twitter" : "@jalfonsosuarez",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/x3database-c2ca7.appspot.com/o/yo.jpeg?alt=media&token=6e5b5dcc-cdd0-4677-8d89-82d5d410e993"
+  }, {
+    "frase" : "otra cosa mariposa",
+    "nombre" : "Josele Barrales",
+    "subtitulo" : "Físico de la física",
+    "twitter" : "@jlpb",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/x3database-c2ca7.appspot.com/o/team-3.jpg?alt=media&token=b155ab1d-a6e4-4ed4-88b9-5f54df3f9b0d"
+  }, {
+    "frase" : "vamonos que nos vamos",
+    "nombre" : "Otro Colega",
+    "subtitulo" : "El que paga las facturas",
+    "twitter" : "@tesorero",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/x3database-c2ca7.appspot.com/o/team-2.jpg?alt=media&token=656a390a-e73e-4407-a9cb-d6f7e7f8358d"
+  } ]
+}
